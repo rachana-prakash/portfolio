@@ -6,7 +6,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Home from "./sections/Home";
-import resume from "./assets/Rachana_Prakash_Resume.pdf";
+import resume from "./Rachana_Prakash_Resume.pdf";
 const toggleMenu = () => {
   const hamburgerBtn = document.getElementById("hamburger-button");
   const mobileMenu = document.getElementById("mobile-menu");
@@ -19,7 +19,6 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <div className={darkMode ? "dark" : ""}>
-      {/* Issue: Need to add specific height?? */}
       <header className=" bg-gray-100 shadow-md text-midnight dark:bg-midnight dark:text-white sticky top-0 z-10">
         <section className="max-w-5xl mx-auto p-4 flex justify-between items-center">
           <h1 className="text-3xl font-medium ">
@@ -32,13 +31,13 @@ function App() {
             {!darkMode && (
               <BsFillMoonFill
                 onClick={() => setDarkMode(true)}
-                className="cursor-pointer w-6 h-6 text-xl mr-4"
+                className="cursor-pointer w-6 h-6 text-xl"
               />
             )}
             {darkMode && (
               <BsSunFill
                 onClick={() => setDarkMode(false)}
-                className="cursor-pointer w-6 h-6 text-xl mr-4"
+                className="cursor-pointer w-6 h-6 text-xl"
               />
             )}
           </div>

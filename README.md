@@ -1,5 +1,9 @@
 # My Portfolio
 
+My portfolio built with React and Tailwind deployed on Github Pages.
+
+See it [live!](https://rachana-prakash.github.io/portfolio/)
+
 ## Guide
 
 ### clone repo
@@ -20,5 +24,6 @@ npm run dev
 
 ## Tech Stack
 
-** React **
-** Tailwind **
+**React**
+
+**Tailwind**

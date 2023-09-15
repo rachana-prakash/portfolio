@@ -1,7 +1,7 @@
 import { AiFillMail, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import user from "../assets/user.jpg";
 import PotraitImage from "../components/PotraitImage";
-import resume from "../assets/Rachana_Prakash_Resume.pdf";
+import resume from "../Rachana_Prakash_Resume.pdf";
 const Home = () => {
   return (
     <section id="home" className="scroll-mt-20 p-4 my-8 md:p-8 md:my-12">
@@ -14,7 +14,10 @@ const Home = () => {
         </h2>
 
         <p className="text-md py-5 leading-8  md:text-xl max-w-xl ">
-          a <span className="text-2xl font-medium">Frontend Engineer </span>{" "}
+          a{" "}
+          <span className="text-sky  dark:text-cerulean font-medium">
+            Frontend Engineer{" "}
+          </span>{" "}
           from India. I like creating{" "}
           <span className="text-sky  dark:text-cerulean">
             clean, accessible and efficient,
